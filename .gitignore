@@ -25,3 +25,8 @@ proguard/
 
 # Log Files
 *.log
+
+# Ignore cordova builds
+platforms/android/assets/www
+platforms/android/ant-build
+platforms/android/CordovaLib/ant-build
