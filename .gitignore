@@ -30,3 +30,11 @@ proguard/
 platforms/android/assets/www
 platforms/android/ant-build
 platforms/android/CordovaLib/ant-build
+
+# Ignore Yeoman builds
+yeoman/dist/
+yeoman/node_modules/
+yeoman/.tmp/
+yeoman/bower_components/
+www/
+
