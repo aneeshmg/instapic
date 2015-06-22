@@ -44,12 +44,9 @@ body {
 }
 
 #board{
-    background-color: #000;
     border: 1px solid #fff;
     overflow-x: scroll;
     width: 95%;
-}
-#board img {
     padding: 3px;
 }
 
