@@ -11,7 +11,7 @@ var sources = [
 function onDeviceReady() {
 
   LoadImage();
-  
+
   $('#newImage').click(function() {
 
     var canvas = document.getElementById('board');
@@ -25,14 +25,14 @@ function onDeviceReady() {
 function LoadImage() {
 
   var imageUrl = sources[Math.ceil(Math.random() * 10) % sources.length];
-  
+
   var ctx = $("canvas")[0].getContext("2d"),
       img = new Image();
-    
+
   img.onload = function(){
     ctx.drawImage(img, 0, 0);
   };
-    
+
   img.src = imageUrl;
-  
+
 }
